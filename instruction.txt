@@ -1,0 +1,16 @@
+npx create-next-app --typescript
+npm run dev
+npm i -D tailwindcss postcss autoprefixer
+npx tailwind init -p
+npm i react-icons
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:julia-rodrigo/AiReserve.git
+git push -u origin main
+
+git status
+git add .
+git commit -m "next commit"
+git push -u origin main
