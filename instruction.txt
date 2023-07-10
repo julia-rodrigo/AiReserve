@@ -5,6 +5,7 @@ npx tailwind init -p
 npm i react-icons
 
 git init
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:julia-rodrigo/AiReserve.git
@@ -14,3 +15,10 @@ git status
 git add .
 git commit -m "next commit"
 git push -u origin main
+
+----
+
+npm install zustand
+npm i axios
+npm i react-hook-form
+npm i react-hot-toast 

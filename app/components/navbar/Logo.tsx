@@ -11,9 +11,10 @@ const Logo = () => {
             key={1}
             alt="Logo"
             className="hidden md:block cursor-pointer" 
-            height="30"
-            width="120"
+            height="40"
+            width="140"
             priority
+            quality={100}
             src="/assets/logo/logo.png"
         />
     )
