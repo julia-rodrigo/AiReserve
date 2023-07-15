@@ -32,3 +32,12 @@ npx prisma db push
 npm i next-auth @prisma/client @next-auth/prisma-adapter
 npm i bcrypt
 npm i -D @types/bcrypt
+
+------------
+
+npm install world-countries 
+npm i react-select
+
+npm i leaflet
+npm i -D @types/leaflet
+npm i react-leaflet
