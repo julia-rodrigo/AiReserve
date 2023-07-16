@@ -2,7 +2,7 @@
 
 import Container from "../general/Container"
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb"
-import { GiBarn, GiBoatFishing, GiCactus, GiCaveEntrance, GiIsland, GiWindmill } from "react-icons/gi"
+import { GiBarn, GiTreehouse, GiBoatFishing, GiCactus, GiCaveEntrance, GiForestCamp, GiForestEntrance, GiIsland, GiWindmill } from "react-icons/gi"
 import { BsSnow } from "react-icons/bs"
 import { IoDiamond } from "react-icons/io5"
 import { MdOutlineVilla } from "react-icons/md"
@@ -58,14 +58,18 @@ export const categories = [
     },
     {
         label: 'Camping',
-        icon: MdOutlineVilla,
+        icon: GiForestCamp,
         description: "This property has camping activities!"
     },
-
+    {
+        label: 'Forest',
+        icon: GiTreehouse,
+        description: "This property has exploring activities!"
+    },
     {
         label: 'Arctic',
         icon: BsSnow,
-        description: "This property has camping activities!"
+        description: "This property is near snowy areas!"
     },
     {
         label: 'Cave',
