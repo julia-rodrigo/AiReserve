@@ -41,3 +41,18 @@ npm i react-select
 npm i leaflet
 npm i -D @types/leaflet
 npm i react-leaflet
+
+-----
+
+npm i next-cloudinary
+
+            git rm --cached FILENAME
+            
+            -- or --- (skip)
+
+            git rm -r --cached .
+            git add .
+
+
+
+-----
