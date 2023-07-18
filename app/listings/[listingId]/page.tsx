@@ -17,7 +17,10 @@ const listingPage = async ({ params }: { params: IParams }) => {
     if (!listing) {
         return (
             <ClientOnly>
-                <EmptyState />
+                <EmptyState 
+                    title="There are no listings yet from you"
+                    subtitle="Try adding some"
+                />
             </ClientOnly>
         )
     }
