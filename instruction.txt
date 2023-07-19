@@ -64,6 +64,7 @@ npm i react-spinners
 
 --------------
 
+npm i
 npm i --save-dev prisma@latest
 
 npm install @prisma/client@5

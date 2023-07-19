@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import getCurrentUser from "./actions/getCurrentUser";
 import getListings, { IlistingsParams } from "./actions/getListings";
 import ClientOnly from "./components/general/ClientOnly";
@@ -16,7 +18,7 @@ const Home = async ({ searchParams } : HomeProps) => {
   if(listings.length == 0) {
     return (
       <ClientOnly>
-        <EmptyState showReset />
+        <EmptyState showReset/>
       </ClientOnly>
     )
   }
