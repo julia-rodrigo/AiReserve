@@ -64,4 +64,9 @@ npm i react-spinners
 
 --------------
 
-npm i -g prisma
+npm i --save-dev prisma@latest
+
+npm install @prisma/client@5
+npm install -D prisma@5
+
+npx prisma generate
